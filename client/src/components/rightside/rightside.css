@@ -1,0 +1,121 @@
+.rightside{
+    display: grid;
+    background-color: #e8edff;
+    grid-template-rows: 10% 40% 50%;
+}
+.right-one{
+    /* background-color: red; */
+}
+.right-two{
+    /* background-color: rgb(160, 107, 107); */
+    display: grid;
+    grid-template-columns: 65% 25%;
+    gap: 3%;
+    /* margin-bottom: 2rem; */
+    
+}
+.right-three{
+    /* background-color: rgb(48, 34, 34); */
+    display: grid;
+    grid-template-columns: 70% 22.5%;
+    gap: 1%;
+    /* margin-top: 3rem; */
+    /* padding-top: 3rem; */
+}
+.rt-one{
+    /* background-color: rgb(255, 255, 255); */
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+.rt-one-one{
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 1rem; */
+    border-radius: 1rem;
+    /* margin-left: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.rt-one-two{
+    /* background-color: rgb(201, 147, 147); */
+    margin-top: 1rem;
+    /* border-radius: 1rem; */
+    /* margin-left: 3rem; */
+}
+/* .rt-two{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+} */
+.right-four{
+    background-color: rgb(148, 84, 84);
+}
+
+@media screen  and (max-width: 1800px){
+   .right-two{
+    /* margin-top: .7rem; */
+    /* background-color: rgb(17, 241, 17); */
+    margin-top: 0;
+    padding-left: 0;
+   }
+   .right-one{
+    /* background-color: yellow; */
+   }
+   .rightside{
+    display: grid;
+    background-color: #e8edff;
+    /* grid-template-rows: 7% 40% 50%; */
+}
+}
+
+@media screen  and (max-width: 800px){
+   .right-two{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    /* align-content: center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 100vh; */
+    /* background-color: rgb(230, 150, 150); */
+    /* margin-bottom: 1rem; */
+   }
+   .right-one{
+    /* background-color: red; */
+   }
+   .right-three{
+    height: 100vh;
+    /* background-color: blueviolet; */
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* padding-right: 1rem; */
+    padding-left: 0;
+    /* margin-bottom: 0; */
+    display: grid;
+    grid-template-rows: 70% 30%;
+    /* gap: 1%; */
+   }
+   .rt-one{
+    margin-left: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    /* height: 50vh; */
+    /* background-color: red; */
+}
+.rightside{
+    /* background-color: greenyellow; */
+    display: grid;
+    grid-template-rows: 5% 40% 50%;
+}
+
+}

@@ -1,0 +1,86 @@
+.piechart{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    grid-template-columns: 50% 50%;
+}
+.one{
+    /* background-color: forestgreen; */
+    height: 50%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.two{
+    /* background-color: rgb(77, 87, 77); */
+    height: 50%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.pei-line{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: .1rem; */
+    padding-left: 1rem;
+    /* padding-bottom: .2rem; */
+    /* font-size: 1px; */
+}
+.circle-pie{
+    /* background-color: greenyellow; */
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+/* style={{color:"black",fontSize:"13px"}} */
+.pei-text{
+    color: black;
+    font-size: 22px;
+}
+
+
+@media screen  and (max-width: 1800px){
+      .pei-text{
+        font-size: 13px;
+      }
+      .piechart{
+        /* background-color: rgb(170, 143, 143); */
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+      }
+      .two{
+        /* background-color: rgb(77, 87, 77); */
+        height: 50%;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        /* display: flex;
+        justify-content: center;
+        flex-direction: column; */
+    
+    }
+    .circle-pie{
+        /* background-color: greenyellow; */
+        width: 1rem;
+        height: 1rem;
+        border-radius: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen  and (max-width: 800px){
+    .piechart{
+        /* margin-bottom: 5rem; */
+        height: 100%;
+        /* background-color: green; */
+    }
+    .pei-text{
+        font-size: 10px;
+    }
+}

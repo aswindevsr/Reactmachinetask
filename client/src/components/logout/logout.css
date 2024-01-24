@@ -1,0 +1,13 @@
+.left-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #eb3223;
+    gap: 5px;
+    cursor: pointer;
+}
+.left-bottom  img{
+    width: 1rem;
+    /* background-color: green; */
+}
